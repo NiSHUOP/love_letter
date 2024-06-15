@@ -1,0 +1,82 @@
+*{
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+   justify-content: center;
+  align-items: center;
+  font-family: Helvetica, sans-serif;
+}
+#btn-group, h1, h5{
+  text-align: center;
+  padding: 5px;
+}
+h1{
+  color: #944E63;
+}
+h5{
+  color: #B47B84;
+}
+h2{
+  text-align: center;
+  color: #B47B84;
+  padding: 5px;
+}
+button{
+  width: 60px;
+  height:25px;
+  border: 1.5px solid #B47B84;
+  background: #FFE7E7;
+  color: #B47B84;
+  font-weight: 600;
+  border-radius: 10px;
+}
+.container{
+  display: flex;
+}
+#box1{
+  background-color: #ffff;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+#box2{
+  background-color: #ffff;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+#box3{
+  background-color: #ffff;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+
+}
+#box4{
+  background-color: #ffff;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+
+.tenor-gif-embed{
+  height: 150px;
+}
